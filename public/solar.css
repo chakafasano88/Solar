@@ -1,0 +1,76 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: monospace;
+  font-weight: 600px;
+  color: white;
+  background-image: url("../images/Solarphoto1.jpg")
+}
+
+.nav {
+  position: fixed;
+  background-color: steelblue;
+  color: white;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+}
+
+.linkref {
+  float: left;
+  color: white;
+  text-decoration: none;
+  padding: 23px;
+  font-size: 20px;
+  display: block;
+}
+
+#backimage{
+
+}
+
+a:hover {
+  background-color: orange;
+}
+
+.search {
+  float: right;
+  padding: 27px 23px 0px 0px;
+}
+
+.container {
+  border: 1px solid black;
+  max-width: 100%;
+  height: 500px;
+  background-color: bisque;
+  position: relative;
+  top: 80px;
+
+}
+
+.text {
+  position: absolute;
+  z-index: 1;
+  max-width: 18%;
+  height: 200px;
+  top: 160px;
+  left: 120px;
+  text-align: center;
+  color: peru;
+}
+
+.paragraph {
+  max-width: 85%;
+  height: 100px;
+  position: relative;
+  top: 50px;
+  left: 20px;
+  font-size: 18px;
+
+}
+
+#button {
+  font-size: 25px;
+  background-color: steelblue;
+  font-family: monospace;
+}
