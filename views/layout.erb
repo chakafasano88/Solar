@@ -4,28 +4,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <link rel="stylesheet" href="solar.css">
+    <script src="https://use.fontawesome.com/2a31d5a3fd.js"></script>
     <title>Media Query</title>
   </head>
   <body>
   <div class="nav">
-      <a href="http://www.bestbuy.com/site/misc/new-technology/pcmcat234500050002.c?id=pcmcat234500050002" class="linkref" >Home</a>
-      <a href="http://www.bestbuy.com/site/misc/new-technology/pcmcat234500050002.c?id=pcmcat234500050002" class="linkref" >About</a>
-      <a href="http://www.bestbuy.com/site/misc/new-technology/pcmcat234500050002.c?id=pcmcat234500050002" class="linkref" >Contact</a>
-      <a href="http://www.bestbuy.com/site/misc/new-technology/pcmcat234500050002.c?id=pcmcat234500050002" class="linkref" >Photos</a>
-
-      <form class="search">
-        <button id="searchbutt" type="button">Search</button>
-        <input type=""></input>
-      </form>
+      <a href="/" class="linkref" >Home</a>
+      <a href="/about" class="linkref" >About</a>
+      <a href="/contact" class="linkref" >Contact</a>
+      <a href="/photos" class="linkref" >Photos</a>
   </div>
-  <div class="container">
-    <div class="text">
-      <h1>Solar Energy</h1>
-        <button id="buttons" type="button">Shop Now</button>
+
+
 
 
 
   <%= yield %>
+  <!-- <div class="mid_container"> -->
 
+  </div>
+  <footer id="footer" >
+    <img id="footer_img" src="/images/manhattanlit.jpg" alt="">
+    <div class="social_media">
+      <div class="tag">
+        <img id="bulb" src="/images/bulbgreens.png" alt="">
+        <p id="educate">Educate.Engage.Empower.</p>
+
+      </div>
+      <a><i id="media" class="fa fa-facebook-official" aria-hidden="true"></i></a>
+      <a><i id="media" class="fa fa-instagram" aria-hidden="true"></i></a>
+      <a><i id="media" class="fa fa-twitter-square" aria-hidden="true"></i>
+      </a>
+      <a><i id="media" class="fa fa-youtube-play" aria-hidden="true"></i>
+    </a>
+  </div>
+  </footer>
+
+<script type="text/javascript" src="solar.js"></script>
   </body>
 </html>
